@@ -1,0 +1,24 @@
+body {
+    font-size: 115%;
+    margin: 0;
+    padding: 0;
+} 
+
+/* Style Banner */
+header {
+    background-image: url("images/universe-g7c7625573_1920.jpg");
+    height: 100vh;
+    max-height: 904px;
+    min-height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+header section {
+    padding: 1rem;
+}
+
+.above-image {
+    color: white;
+}

@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
     font-size: 115%;
     margin: 0;
@@ -21,4 +29,26 @@ header section {
 
 .above-image {
     color: white;
+}
+
+/* Center centered-main class */
+.centered-main {
+    width: 70%;
+    max-width: 55em;
+    margin: 0 auto;
+}
+
+/* Style floated boxes */
+.box-right {
+    box-sizing: content-box;
+    float: right;
+    width: 350px; 
+}
+
+.box-right img {
+    width: 300px;
+}
+
+.clear-float {
+    clear: both;
 }

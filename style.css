@@ -6,11 +6,52 @@ html {
     box-sizing: inherit;
 }
 
+/* Variables */
+
+:root {
+    --background: #260101;
+    --background-alt: #0C2A30;
+    --text: #A0F2EA;
+    --text-alt: #FFE2AB;
+    --primary: #73FFCC;
+    --secondary: #F2D6A2;
+    --primary-dark: #58C49D;
+    --primary-light: #9CFFDB;
+}
+
+/* Default body styles */
+
 body {
     font-size: 115%;
     margin: 0;
     padding: 0;
+    color: var(--text);
+    background-color: var(--background);
 } 
+
+a:link {
+    color: var(--primary);
+}
+
+a:visited {
+    color: var(--primary-dark)
+}
+
+a:hover {
+    color: var(--primary-light)
+}
+
+section.gradient {
+    background-image: linear-gradient(var(--background), var(--background-alt));
+}
+
+footer {
+    background-color: var(--background-alt);
+    color: var(--text-alt);
+    padding: 0 0 0.3em;
+    margin-top: 0;
+}
+
 
 /* Style Banner */
 header {

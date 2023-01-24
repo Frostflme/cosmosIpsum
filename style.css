@@ -21,15 +21,39 @@ html {
 
 /* Default body styles */
 
-body {
-    margin: 0;
+.first {
+    margin-top: 0;
+    padding-top: 0.8em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
+    font-weight: 600;
 }
 
-p {
+h1 {
+    font-size: 48pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+b, strong {
+    font-weight: 600
+}
+
+h1 b, h1 strong, h2 b, h2 strong, h3 b, h3 strong, h4 b, h4 strong, h5 b, h5 strong, h6 b, h6 strong {
+    font-weight: 900;
+}
+
+.final {
     margin-bottom: 0;
 }
 
@@ -83,12 +107,13 @@ header section {
 
 .above-image {
     color: white;
+    text-align: center;
 }
 
 /* Center centered-main class */
 .centered-main {
     width: 70%;
-    max-width: 55em;
+    max-width: 40em;
     margin: 0 auto;
 }
 

@@ -103,6 +103,8 @@ header {
 
 header section {
     padding: 1rem;
+    position: relative;
+    top: 10%;
 }
 
 .above-image {
